@@ -1,0 +1,76 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage__background {
+    width: 1440px;
+    height: 720px;
+    background-color: #C5C9DF;
+    position: relative;
+
+}
+
+.frame__background {
+    position: absolute;
+    height: 471px;
+    width: 273px;
+    background-color: #141A41;
+    border-radius: 11px;
+    margin: 120px 575px;
+}
+
+.profile__background {
+    position: absolute;
+    width: 347px;
+    height: 379px;
+    left: 627px;
+    background: linear-gradient(0deg, #0a3ad4, #0feebe);
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    margin: 165px -90px;
+    text-align: center;
+
+}
+
+.profile__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: #C5C9DF;
+    padding: 10px;
+    margin-top: 45px;
+
+}
+
+.yusuf__avcilar {
+    font-size: 1.25rem;
+    color: #141A41;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.view__content {
+    background-color: #141A41;
+    color: #FFFFFF;
+    border-radius: 0px 20px 0px 20px;
+    border-color: #141A41;
+    padding: 15px;
+    width: 150px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.view__content:hover {
+    background-color: coral;
+    opacity: 90%;
+}
